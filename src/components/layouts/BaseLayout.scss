@@ -1,0 +1,9 @@
+@use "styles/partials/global" as *;
+
+// @styles/pages/common.scss
+.base-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--color-bg);
+}
